@@ -17,3 +17,8 @@ services:
 
 volumes:
   internxt_core_config: {}
+
+networks:
+  dncore_network:
+    external:
+      name: dncore_network
